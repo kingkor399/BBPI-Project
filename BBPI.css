@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+
+header{
+    background-color: rgb(43, 42, 42);
+    height:  65px;
+    margin-top: -20px;
+}
+
+.name h2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;
+}
+
+header .my{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -60px;
+    margin-left: -10px;
+}
+
+header .my ul li{
+    float: left;
+    margin-left: 23px;
+    list-style: none;
+}
+
+header .my ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+header button{
+    border-radius: 10px;
+    border: none;
+    background-color:dodgerblue;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.header2{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(8, 187, 187);
+    
+}
+
+.header2 ul{
+    list-style: none;
+}
+.header2 ul li{
+    width: 200px;
+    background-color: rgb(8, 187, 187);
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+}
+
+.header2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.header2 ul li:hover{
+    background-color: crimson;
+}
+
+.header2 ul ul{
+    display: none;
+}
+
+.header2 ul li:hover > ul{
+    display: block;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(43, 42, 42);
+    position: absolute;
+    bottom: 0;
+}
+
+.logo h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color:rgb(8, 187, 187);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.para p{
+    width:800px;
+    margin: 0 auto;
+    margin-top: -15px;
+    color: white;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 0px solid crimson;
+    background-color: black;
+    color: white;
+}
